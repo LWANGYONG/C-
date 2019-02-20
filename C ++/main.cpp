@@ -6,17 +6,17 @@ namespace ICBC
 	void save()
 	{
 		int a;
-		cout << "´æÈë½ð¶î" << endl;
+		cout << "Â´Ã¦ÃˆÃ«Â½Ã°Â¶Ã®" << endl;
 		cin >> a;
 		balance += a;
 	}
 	void draw()
 	{
 		int a;
-		cout << "È¡¿î½ð¶î" << endl;
+		cout << "ÃˆÂ¡Â¿Ã®Â½Ã°Â¶Ã®" << endl;
 		cin >> a;
 		balance -= a;
-		cout << "Óà¶î"<<balance << endl;
+		cout << "Ã“Ã Â¶Ã®"<<balance << endl;
 	}
 }
 namespace ABC
@@ -25,15 +25,15 @@ namespace ABC
 	void draw()
 	{
 		int a;
-		cout << "È¡¿î½ð¶î" << endl;
+		cout << "ÃˆÂ¡Â¿Ã®Â½Ã°Â¶Ã®" << endl;
 		cin >> a;
 		balance -= a;
-		cout << "Óà¶î" << balance << endl;
+		cout << "Ã“Ã Â¶Ã®" << balance << endl;
 	}
 	void save()
 	{
 		int a;
-		cout << "´æÈë½ð¶î" << endl;
+		cout << "Â´Ã¦ÃˆÃ«Â½Ã°Â¶Ã®" << endl;
 		cin >> a;
 		balance += a;
 	}
